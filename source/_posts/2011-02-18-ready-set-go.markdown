@@ -1,5 +1,6 @@
 ---
 title: Ready, Set, Go!
+comments: true
 layout: post
 ---
 

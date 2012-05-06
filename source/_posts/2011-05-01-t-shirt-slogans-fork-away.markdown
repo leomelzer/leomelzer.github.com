@@ -1,5 +1,6 @@
 --- 
 title: T-Shirt slogans, fork away
+comments: true
 layout: post
 ---
 

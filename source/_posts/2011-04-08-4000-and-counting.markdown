@@ -1,5 +1,6 @@
 --- 
 title: 4000 and counting
+comments: true
 layout: post
 ---
 

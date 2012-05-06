@@ -1,5 +1,6 @@
 --- 
 title: Twenty Procrastination Tips
+comments: true
 layout: post
 ---
 

@@ -1,5 +1,6 @@
 --- 
 title: REthink. Tetra Pak Edition
+comments: true
 layout: post
 ---
 

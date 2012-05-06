@@ -1,5 +1,6 @@
 --- 
 title: "\"We're in the most ridiculous industry on earth.\""
+comments: true
 layout: post
 ---
 

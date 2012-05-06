@@ -1,5 +1,6 @@
 --- 
 title: On Writing.
+comments: true
 layout: post
 ---
 

@@ -1,5 +1,6 @@
 --- 
 title: Wallpapers - August 2011
+comments: true
 layout: post
 ---
 

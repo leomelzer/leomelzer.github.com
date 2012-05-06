@@ -1,5 +1,6 @@
 --- 
 title: Wallpapers.
+comments: true
 layout: post
 ---
 

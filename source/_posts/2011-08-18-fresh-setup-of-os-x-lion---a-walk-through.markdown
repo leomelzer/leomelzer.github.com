@@ -1,5 +1,6 @@
 --- 
 title: Fresh Setup of OS X Lion - a walk-through
+comments: true
 layout: post
 ---
 

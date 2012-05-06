@@ -1,5 +1,6 @@
 --- 
 title: Berlin short-trip
+comments: true
 layout: post
 ---
 
