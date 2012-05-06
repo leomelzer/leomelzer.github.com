@@ -1,0 +1,56 @@
+--- 
+title: 4000 and counting
+layout: post
+---
+
+*Four thousand*. That's the number of Tweets I posted between 3rd September 2007 and 22nd March 2011. ~
+
+1269 days. That makes 3.15 tweets per day. Okay, that's statistics and as an observation may be true - but for me it wasn't love at first sight.
+
+<a href="https://twitter.com/#!/leomelzer/status/50247794807681024" class="hero" title="My 4000th Tweet"><img src="http://cl.ly/5qw9/4000th-tweet.png" alt="My 4000th Tweet"></a>
+
+In the beginning it was just yet another registration for yet another service. Twitter was the cool thing on the web that time and yeah, I had to see what it was. Sign-up, test-tweet, looking for people I knew and boom. Silence. *How is this helping me? I don't know anyone here.* Silence.
+
+It took me quite a while to figure out how to use Twitter to my gain. At least I think it actually is my gain now...anyway: fast-forward 3.5 years and let's see how that went.
+
+## My way
+
+For me, it didn't turn out to be yet another service but instead became kind of an integral part of life and work, as funny as it sounds. A service were you post messages in less than 140 characters to share with random people in the world. It's funny to explain this concept to your family or other less techy people.
+
+But somehow I enjoy it, it's not just putting stuff out there but getting something back. I like the direct form of communication, I can directly reach a big corporation like Adobe (they do listen! [Proof](https://twitter.com/#!/adobe_care/status/46279156673159169)) in the same way I have small conversations with friends. You explore & take part in the same time. And because it's so fast, it actually became a very important source for daily news (thanks @zeit_online for doing such an awesome job!).
+
+Maybe something more specific to me: I try to keep the number of Followings small because I want to read what they have to say, *I follow them for a reason*.
+Most of them are tech-people who do cool stuff and it's nice to stay in the loop. Then there are a number of software-companies & bands who post updates via their accounts.
+Finally there is a - admittedly - small number of people who I actually met in real life. I can still count them with both of my hands but I do hope that number increases significantly, either because Twitter gains even more traction among my friends or I start meeting more of the people I currently follow.
+
+## Why is it so popular?
+
+> &#x2325; tab, brain dump, &#x2318; &#x21A9;
+
+The key to Twitters success is it's ease of use.
+
+*	A simple input box with a limit of 140 characters
+*	A send button
+*	The basic concept of Followers & Followings
+
+That's it, nothing else. My dad gets that in 3 minutes.
+But yeah, he would doubt the whole underlying concept of social structures and usefulness in the following 3 minutes.
+
+To him it's not apparent who actually cares about what I post as @leomelzer. My response always tends to be something like: I care and that's enough.
+
+Another significant feature is your Twitter login. Nowadays loads of services integrate with the login via OAuth, sometimes just for the sake of authentication, most of the times for tighter integration though (find friends, utilize your tweets in whatever manner etc...).
+It's widely established but still is the underdog in the battle with Facebook Connect as *the* de-facto standard login on the internet. Where is OpenID by the way?
+
+But not only through the login, also via the API tons of applications extend Twitters usages. There are a bazillion ways to post updates and also the official applications - Website, Desktop & Mobile - are well done.
+
+## Twitter Inc.
+
+Twitter as a company still has this startup-smell, at least from the distance. Important politicians and musicians visiting the HQ and the presence in old-media (they love it! They even get their own news from there, ha.), [maintaining OpenSource projects](https://github.com/twitter) plus the occasional Failwhale.
+
+Though recent experiments like the Dickbar weren't as successful as they probably wished to be, it still showed this startup-spirit to, well, experiment.
+
+While Twitter still has to find a viable business model I do believe they deserve credit for helping shape the internet as it is today. There are things to come, I'm sure. 
+
+You can follow me on you-know-what, @leomelzer. Keep tweetin'.
+
+PS: @twitter you're taking interns for later this year, right? I'd like to join the flock.
