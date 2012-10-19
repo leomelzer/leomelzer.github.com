@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Fresh Setup of OS X Lion - a walk-through - Running Code</title>
+  <meta name="author" content="Leonhard Melzer">
+
+  
+  <meta name="description" content="Setting up my MacBook Pro with a fresh install of Mac OS X Lion - a brief walk-through. ~ I&#8217;d like to do a fresh reinstall, which means I&#8217 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://leomelzer.github.com/blog/2011/08/18/fresh-setup-of-os-x-lion---a-walk-through">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Running Code" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Running Code</a></h1>
+  
+    <h2>On things I care about.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:leomelzer.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Fresh Setup of OS X Lion - a Walk-through</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-08-18T00:00:00+02:00" pubdate data-updated="true">Aug 18<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Setting up my MacBook Pro with a fresh install of Mac OS X Lion - a brief walk-through. ~</p>
+
+<p>I&#8217;d like to do a <em>fresh</em> reinstall, which means I&#8217;ll wipe the disk.</p>
+
+<h1>First things first: <em>What do I need to backup?</em></h1>
+
+<p>Turns out it&#8217;s not that much in 2011, especially for my Laptop which I use as a secondary machine only. Good place to start is the personal <code>Users</code> folder.</p>
+
+<ul>
+<li>I like to keep my <strong>Desktop</strong> empty, so nothing here to save</li>
+<li><strong>Documents</strong> is symlinked into my Dropbox, so nothing to save here as well</li>
+<li><strong>Downloads</strong>: had some misc stuff here, turned out it all could be deleted</li>
+<li><strong>Dropbox</strong>: Okay, this is important. But it&#8217;s in the Cloud anyway. So: next!</li>
+<li><strong>Movies, Pictures &amp; Music</strong>: I currently don&#8217;t have actual files on my Laptop, only on the iMac, so nothing to save here (Note for Pictures: PhotoBooth saves its Library in a separate file in there, there wasn&#8217;t anything of value for me, but you might have to check)</li>
+<li><strong>Custom Folders</strong>: I keep a <em>Code</em> Directory in my Users folder. But browsing through the contents reassured me, they are either cloned public GitHub repositories, thus can be retrieved at any time, or are private repositories. Just ran a quick <code>git status</code> to make sure there are no unsynced changes.</li>
+</ul>
+
+
+<p><em>Looking good!</em></p>
+
+<h1>Next up: <em>Applications</em>!</h1>
+
+<p>Might as well do some clean up along the way and abolish never-used Apps&hellip;let&#8217;s open <em>AppCleaner</em>.</p>
+
+<ul>
+<li>first victim: <strong>Adium</strong>. You served me well but iChat is just too nice, especially since I don&#8217;t need all that multi-messenger stuff anymore - Jabber ftw!</li>
+<li><strong>Eclipse</strong>: you served me well, too. But as long as I don&#8217;t need to do Java-y stuff I&#8217;d rather keep you outta here.</li>
+<li><strong>Flickr Uploadr</strong>: Hardly ever used you, the UI needs a major makeover&hellip;and the web-interface is just fine.</li>
+<li><strong>R</strong>: You are cool, but our University course on Analysis &amp; Visualization is over.</li>
+<li><strong>Scribo</strong>: Textmate works great as a Latex Editor, though I might get back to you.</li>
+<li><strong>TrailRunner</strong>: Hardly ever used you.</li>
+<li><strong>BetterTouchTool</strong>: I&#8217;ll try without you, Apple finally improved the multi-touch settings in Lion. Not sure this will be a permanent decision.</li>
+<li><strong>OpenOffice</strong>: This will be interesting. Recently purchased Pages.app in the AppStore so I have this aspect covered already. I&#8217;ll try to use Google Docs for everything else.</li>
+<li><strong>Xbench</strong>: I already know my SSD is pretty fast. Just ran a quick check to see if this is still the case on year later and yes, good results - even a tad better then the last time I ran it. Thank you.</li>
+</ul>
+
+
+<p>Cool, this alone cut down the list by 9 entries and freed 867 MB disk space (I don&#8217;t have that much to waste with my 50 GB SSD).</p>
+
+<p>Let&#8217;s quickly check the other Tabs in AppCleaner.app:</p>
+
+<ul>
+<li><strong>Widgets</strong>: DeliveryStatus is the only thing I care about.</li>
+<li><strong>Others</strong>: AppCleaner lists media-conversion components here, as well as custom Preference Panes. <em>Perian</em>, <em>Growl</em> are there to last.</li>
+</ul>
+
+
+<p>Let&#8217;s save what we have as screenshots:
+<a href="http://cl.ly/9H3D">Applications I</a>, <a href="http://cl.ly/9Hl6">Applications II</a></p>
+
+<p>2011 - the year of the AppStore. It&#8217;s possible to re-download all Applications without fuzz but let&#8217;s take a screenshot to know which were actually installed:
+<a href="http://cl.ly/9HFk">AppStore Installs</a></p>
+
+<h1>Keychain &amp; SSH</h1>
+
+<p>Forgot this once and while it was not too hard to recover the lost credentials I wanted to get this right this time.
+Turns out your keychain is located in <code>~/Library/Keychains/</code> - the file is probably called <code>login.keychain</code> but there may be more - just backup them all. Reference: <a href="http://support.apple.com/kb/ht2980">Apple Knowledge Base</a> (though this is for 10.4 it&#8217;s still the same).</p>
+
+<p>Okay, great. So what&#8217;s (purposely) missing?</p>
+
+<ul>
+<li><strong>All things Browser-related</strong>: I sync Google Chrome with my Google Account so I&#8217;m safe here.</li>
+<li><strong>Dropbox</strong></li>
+<li><strong>Settings</strong>: I&#8217;d like to start with a blank slate and build up from there. May be different for you.</li>
+<li><strong>Contacts &amp; Events</strong>: Yep, in my Google Account.</li>
+<li><strong>Printers</strong>: I&#8217;ll have to set them up once again, not sure if you can properly &#8220;export&#8221; them but I don&#8217;t really mind.</li>
+<li><strong>Drivers</strong>: there are none. YES!</li>
+</ul>
+
+
+<p>Great, looks like we are nearly ready to go. But&hellip;let&#8217;s run a quick <code>ls -la</code> in ~ to check what&#8217;s hidden there&hellip;</p>
+
+<p>I don&#8217;t care for the various dotfiles which got stuck here over time - as said before, I&#8217;d like to start with a blank slate. But I <em>do</em> mind <code>~/.ssh</code> however! Let&#8217;s back that up and save it in a secure place (that is, not in Dropbox).</p>
+
+<p>Cool. I&#8217;ll save the passphrase for my current Wifi somewhere so I don&#8217;t have to actually stand up and walk down and look for a cable or check the password on the router before the first sync with everything cloudy.</p>
+
+<p>Let&#8217;s restart in Recovery Mode (by pressing <em>&#x2318;+R</em> on startup) and try to install some fresh Lion. See you in a minute.</p>
+
+<p><strong>(Snap! Turns out it took me a bit longer, it&#8217;s 18th August now)</strong></p>
+
+<p>Oh well. The problem which took me a while to figure out was the Firmware Password I set on my Macbook Pro about a week ago, along with the installation of <a href="http://preyproject.com/">Prey</a>. I&#8217;ll save this issue for a dedicated blog-post&hellip;</p>
+
+<h1>Fresh Install - Partitions</h1>
+
+<p>In order to have a truly fresh install I created a separate partition and installed 10.7 on there. Afterwards I deleted the old OS and merged the partitions again. Simply running <em>Install</em> will only upgrade your old OS.</p>
+
+<h1>Up &amp; Running</h1>
+
+<ol>
+<li>Google Chrome, setting up Sync</li>
+<li>Dropbox, starting Sync</li>
+<li><em>AppStore</em>: XCode, Pages, MPlayerX, CloudApp, Caffeine, Soundcloud, The Unarchiver, Twitter</li>
+<li><em>Download &amp; Install</em>: <a href="http://agilebits.com/products/1Password/Mac">1Password</a>, <a href="http://mailplaneapp.com/">Mailplane</a>, <a href="http://peepcode.com/products/peepopen">PeepOpen</a>, <a href="http://www.1802.it/pixer.php">Pixer</a>, GitHub, <a href="http://www.haystacksoftware.com/arq/">Arq</a>, <a href="http://www.alfredapp.com/">Alfred</a>, Textmate, Firefox, <a href="http://www.hogbaysoftware.com/products/taskpaper">TaskPaper</a>, Skype, <a href="http://www.sequelpro.com/">Sequel Pro</a>, VirtualHost X, Perian Preference Pane, Growl, <a href="http://www.freemacsoft.net/#">AppCleaner</a>, <a href="http://preyproject.com/">Prey</a>, <a href="http://totalterminal.binaryage.com/">TotalTerminal</a></li>
+<li>Install <a href="https://github.com/mxcl/homebrew">brew</a> and <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>, enabling some Plugins</li>
+<li><em>brew</em>: MacVim, rvm, wget</li>
+<li>Move my Dock to the left, decrease Magnification</li>
+<li>Remove extraneous Icons from the Dock / Finder Sidebar, solid Menubar-Background</li>
+<li>Running Software Update</li>
+<li>Turning on the Firewall &amp; File Sharing</li>
+<li>Wiring up 1Password and Dropbox, installing Browser Extensions for Dropbox</li>
+<li>Setting up my Google Account in <em>Mail, Contacts &amp; Calendars</em></li>
+<li>Setting up my Google Account with <em>Address Book</em> (why is this not the same&hellip;?)</li>
+<li>Getting familiar with the <em>Trackpad</em> Settings</li>
+<li>Setting up Wallpaper Rotation</li>
+<li>Setting up Prey, testing Reports</li>
+<li>Creating <code>~/Code</code> and checking out my private Repositories in there</li>
+<li>Enabling PHP5 in <code>/private/etc/apache2/httpd.conf</code> &amp; restart Apache</li>
+<li>Restoring <code>~/.ssh</code> form my Backup</li>
+</ol>
+
+
+<p>I didn&#8217;t install all the Applications I had before and will just install them when necessary.</p>
+
+<p>Less then 20 steps for a fresh and slightly customized system. Gone are the days of juggling with multiple CDs and driver installations and stuff. You&#8217;d be screwed without broadband though.</p>
+
+<p>21.6 GB still free on my SSD. Feels snappy!</p>
+
+<h1>Problems</h1>
+
+<p>When installing brew on Lion, use a modified <a href="https://raw.github.com/gist/1140207">install-script</a> to avoid problems when running <code>brew update</code> (Reference, <a href="https://github.com/mxcl/homebrew/issues/6886">Issue 6886</a>).</p>
+
+<p>Other than that, I didn&#8217;t run into serious problems caused by 10.7 - looks like all Developers took care of compatibility before the release.</p>
+
+<h1>Do it!</h1>
+
+<p>Upgrade if you haven&#8217;t yet. This post doesn&#8217;t focus on all the nice small improvements in Lion but I think Apple delivered a good Update - no revolution - but reasonable additions, needed improvements &amp; some really nice UI-refinements.
+Exciting times, the roll-out of iCloud will certainly make some of Lions hidden features more apparent.</p>
+
+<p>Phew, you made it this far? A rather boring and imageless post but maybe you found a tidbit or two which helped you improve your setup. Get <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> and <a href="http://totalterminal.binaryage.com/">TotalTerminal</a> if you use the command line more than once a day. Feel free to share additions in the comments!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Leonhard Melzer</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-08-18T00:00:00+02:00" pubdate data-updated="true">Aug 18<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://leomelzer.github.com/blog/2011/08/18/fresh-setup-of-os-x-lion---a-walk-through/" data-via="leomelzer" data-counturl="http://leomelzer.github.com/blog/2011/08/18/fresh-setup-of-os-x-lion---a-walk-through/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/08/07/london-2011/" title="Previous Post: London 2011">&laquo; London 2011</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/08/18/wallpapers---august-2011/" title="Next Post: Wallpapers - August 2011">Wallpapers - August 2011 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/10/07/twenty-procrastination-tips/">Twenty Procrastination Tips</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/08/18/wallpapers---august-2011/">Wallpapers - August 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/08/18/fresh-setup-of-os-x-lion---a-walk-through/">Fresh Setup of OS X Lion - a walk-through</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/08/07/london-2011/">London 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/01/t-shirt-slogans-fork-away/">T-Shirt slogans, fork away</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("leomelzer", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/leomelzer" class="twitter-follow-button" data-show-count="false">Follow @leomelzer</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Leonhard Melzer -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'foomoo';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://leomelzer.github.com/blog/2011/08/18/fresh-setup-of-os-x-lion---a-walk-through/';
+        var disqus_url = 'http://leomelzer.github.com/blog/2011/08/18/fresh-setup-of-os-x-lion---a-walk-through/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
